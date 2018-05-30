@@ -1,0 +1,90 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image: url("images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-page {
+  padding-top: 100px;
+  text-align: center;
+}
+.home-page .search-form .form-title {
+  font-size: 20px;
+  text-align: left;
+}
+.home-page .search-form .date-field-wrapper {
+  display: inline-block;
+  width: 80px;
+}
+.home-page .search-form .date-field-wrapper .date-field {
+  margin-left: 10px;
+  background-color: #323232;
+  background: linear-gradient(to top, #242424, #3e3e3e);
+  border: black;
+}
+.panel-default .panel-heading {
+  background-color: #323232;
+  background: linear-gradient(to top, #242424, #3e3e3e);
+  color: white;
+}
+.panel-default .panel-footer {
+  bbackground-color: #323232;
+  background: linear-gradient(to top, #242424, #3e3e3e);
+  color: white;
+}
+.background-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.slick-arrow {
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+  border-radius: 25px;
+  background-color: #179eb3;
+}
+.slick-arrow.slick-prev:before,
+.slick-arrow.slick-next:before {
+  content: none;
+}
+.slick-arrow.slick-prev:hover {
+  background-color: #179eb3;
+}
+.slick-arrow.slick-next:hover {
+  background-color: #179eb3;
+}
+.slick-arrow .arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.slick-arrow .arrow.arrow-left {
+  transform: scale(-1, 1);
+}
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 15px;
+  }
+  .form-label {
+    width: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .sm-align-left {
+    text-align: start;
+  }
+}
+.margin-bottom-sm {
+  margin-bottom: 10px;
+}
