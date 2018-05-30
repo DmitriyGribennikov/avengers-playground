@@ -31,10 +31,10 @@ const getInitialState = () => {
             },
             {
                 id: 5,
-                name: 'Iron Man',
+                name: 'Iron Man 2',
                 startDate: 1527811200000, // 01.06.2018
                 endDate: 1528329600000, // 07.06.2018
-                img: 'iron-man1',
+                img: 'iron-man2',
             }
         ]
     };
